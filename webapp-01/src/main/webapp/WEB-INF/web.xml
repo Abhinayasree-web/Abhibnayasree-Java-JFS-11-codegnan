@@ -1,0 +1,20 @@
+
+<web-app> 
+	<display-name>webapp-01</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+	<servlet-name>WelcomeServlet</servlet-name>
+	<servlet-class>com.codegnan.Web.WelcomeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>WelcomeServlet</servlet-name>
+	<url-pattern>/hello</url-pattern>
+	</servlet-mapping>
+</web-app>
